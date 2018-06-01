@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About NetsCoin</source>
-        <translation>NetsCoinist</translation>
+        <source>About NiCKEL</source>
+        <translation>NiCKEList</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;NetsCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;NetsCoini&lt;/b&gt; versioon</translation>
+        <source>&lt;b&gt;NiCKEL&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;NiCKELi&lt;/b&gt; versioon</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,7 +34,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+0"/>
-        <source>The NetsCoin developers</source>
+        <source>The NiCKEL developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -67,8 +67,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your NetsCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Maksete saamiseks kasutatavad NetsCoini aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
+        <source>These are your NiCKEL addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Maksete saamiseks kasutatavad NiCKELi aadressid. Maksjate paremaks jälgimiseks võib igaühele anda erineva.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,7 +82,7 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a NetsCoin address</source>
+        <source>Sign a message to prove you own a NiCKEL address</source>
         <translation>Allkirjasta sõnum, et tõestada Bitconi aadressi olemasolu.</translation>
     </message>
     <message>
@@ -107,8 +107,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified NetsCoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud NetsCoini aadressiga.</translation>
+        <source>Verify a message to ensure it was signed with a specified NiCKEL address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud NiCKELi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your NetsCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Need on sinu NetsCoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+        <source>These are your NiCKEL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu NiCKELi aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NetsCoinS&lt;/b&gt;!</source>
-        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA NetsCoinID&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NiCKELS&lt;/b&gt;!</source>
+        <translation>Hoiatus: Kui sa kaotad oma, rahakoti krüpteerimisel kasutatud, salafraasi, siis &lt;b&gt;KAOTAD KA KÕIK OMA NiCKELID&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-56"/>
-        <source>NetsCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your NetsCoins from being stolen by malware infecting your computer.</source>
-        <translation>NetsCoin sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista NetsCoinide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
+        <source>NiCKEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your NiCKELs from being stolen by malware infecting your computer.</source>
+        <translation>NiCKEL sulgub krüpteeringu lõpetamiseks. Pea meeles, et rahakoti krüpteerimine ei välista NiCKELide vargust, kui sinu arvuti on nakatunud pahavaraga.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about NetsCoin</source>
-        <translation>Kuva info NetsCoini kohta</translation>
+        <source>Show information about NiCKEL</source>
+        <translation>Kuva info NiCKELi kohta</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a NetsCoin address</source>
-        <translation>Saada münte NetsCoini aadressile</translation>
+        <source>Send coins to a NiCKEL address</source>
+        <translation>Saada münte NiCKELi aadressile</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for NetsCoin</source>
-        <translation>Muuda NetsCoini seadeid</translation>
+        <source>Modify configuration options for NiCKEL</source>
+        <translation>Muuda NiCKELi seadeid</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>NetsCoin</source>
-        <translation>NetsCoin</translation>
+        <source>NiCKEL</source>
+        <translation>NiCKEL</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About NetsCoin</source>
-        <translation>%NetsCoinist</translation>
+        <source>&amp;About NiCKEL</source>
+        <translation>%NiCKEList</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your NetsCoin addresses to prove you own them</source>
-        <translation>Omandi tõestamiseks allkirjasta sõnumid oma NetsCoini aadressiga</translation>
+        <source>Sign messages with your NiCKEL addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma NiCKELi aadressiga</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified NetsCoin addresses</source>
-        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud NetsCoini aadressiga</translation>
+        <source>Verify messages to ensure they were signed with specified NiCKEL addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud NiCKELi aadressiga</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenS
     </message>
     <message>
         <location line="+47"/>
-        <source>NetsCoin client</source>
-        <translation>NetsCoini klient</translation>
+        <source>NiCKEL client</source>
+        <translation>NiCKELi klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to NetsCoin network</source>
-        <translation><numerusform>%n aktiivne ühendus NetsCoini võrku</numerusform><numerusform>%n aktiivset ühendust NetsCoini võrku</numerusform></translation>
+        <source>%n active connection(s) to NiCKEL network</source>
+        <translation><numerusform>%n aktiivne ühendus NiCKELi võrku</numerusform><numerusform>%n aktiivset ühendust NiCKELi võrku</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -655,8 +655,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid NetsCoin address or malformed URI parameters.</source>
-        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu NetsCoini aadress või vigased URI parameetrid.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid NiCKEL address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu NiCKELi aadress või vigased URI parameetrid.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -670,8 +670,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. NetsCoin can no longer continue safely and will quit.</source>
-        <translation>Ilmnes kriitiline tõrge. NetsCoin suletakse turvakaalutluste tõttu.</translation>
+        <source>A fatal error occurred. NiCKEL can no longer continue safely and will quit.</source>
+        <translation>Ilmnes kriitiline tõrge. NiCKEL suletakse turvakaalutluste tõttu.</translation>
     </message>
 </context>
 <context>
@@ -736,8 +736,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid NetsCoin address.</source>
-        <translation>Sisestatud aadress &quot;%1&quot; ei ole NetsCoinis kehtiv.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid NiCKEL address.</source>
+        <translation>Sisestatud aadress &quot;%1&quot; ei ole NiCKELis kehtiv.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -755,8 +755,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>NetsCoin-Qt</source>
-        <translation>NetsCoini-Qt</translation>
+        <source>NiCKEL-Qt</source>
+        <translation>NiCKELi-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -818,13 +818,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start NetsCoin after logging in to the system.</source>
-        <translation>Käivita NetsCoin süsteemi logimisel.</translation>
+        <source>Automatically start NiCKEL after logging in to the system.</source>
+        <translation>Käivita NiCKEL süsteemi logimisel.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start NetsCoin on system login</source>
-        <translation>&amp;Start NetsCoin sisselogimisel</translation>
+        <source>&amp;Start NiCKEL on system login</source>
+        <translation>&amp;Start NiCKEL sisselogimisel</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -843,8 +843,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the NetsCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>NetsCoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the NiCKEL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>NiCKELi kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -853,8 +853,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the NetsCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Kasuta NetsCoini võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
+        <source>Connect to the NiCKEL network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Kasuta NiCKELi võrgustikku ühendumiseks SOCKS turva proxy&apos;t (nt Tor&apos;i kasutamisel).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -928,8 +928,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting NetsCoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub NetsCoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NiCKEL.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub NiCKELi käivitamisel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -943,8 +943,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show NetsCoin addresses in the transaction list or not.</source>
-        <translation>Kuvada NetsCoini aadress tehingute loetelus või mitte.</translation>
+        <source>Whether to show NiCKEL addresses in the transaction list or not.</source>
+        <translation>Kuvada NiCKELi aadress tehingute loetelus või mitte.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -995,8 +995,8 @@ Aadress: %4⏎</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting NetsCoin.</source>
-        <translation>Tehtud valik rakendub NetsCoini käivitamisel.</translation>
+        <source>This setting will take effect after restarting NiCKEL.</source>
+        <translation>Tehtud valik rakendub NiCKELi käivitamisel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1014,7 +1014,7 @@ Aadress: %4⏎</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NetsCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NiCKEL network after a connection is established, but this process has not completed yet.</source>
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1068,8 +1068,8 @@ Aadress: %4⏎</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start NetsCoin: click-to-pay handler</source>
-        <translation>NetsCoin ei käivitu: vajuta-maksa toiming</translation>
+        <source>Cannot start NiCKEL: click-to-pay handler</source>
+        <translation>NiCKEL ei käivitu: vajuta-maksa toiming</translation>
     </message>
 </context>
 <context>
@@ -1218,8 +1218,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the NetsCoin-Qt help message to get a list with possible NetsCoin command-line options.</source>
-        <translation>Näita kehtivate käsurea valikute kuvamiseks NetsCoini-Qt abiteksti</translation>
+        <source>Show the NiCKEL-Qt help message to get a list with possible NiCKEL command-line options.</source>
+        <translation>Näita kehtivate käsurea valikute kuvamiseks NiCKELi-Qt abiteksti</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1238,13 +1238,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>NetsCoin - Debug window</source>
-        <translation>NetsCoin - debugimise aken</translation>
+        <source>NiCKEL - Debug window</source>
+        <translation>NiCKEL - debugimise aken</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>NetsCoin Core</source>
-        <translation>NetsCoini tuumik</translation>
+        <source>NiCKEL Core</source>
+        <translation>NiCKELi tuumik</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1253,8 +1253,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the NetsCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava NetsCoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the NiCKEL debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava NiCKELi logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1263,8 +1263,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the NetsCoin RPC console.</source>
-        <translation>Teretulemast NetsCoini RPC konsooli.</translation>
+        <source>Welcome to the NiCKEL RPC console.</source>
+        <translation>Teretulemast NiCKELi RPC konsooli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1406,8 +1406,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Tehingu saaja aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Tehingu saaja aadress (nt: Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1447,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a NetsCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta NetsCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a NiCKEL address (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta NiCKELi aadress (nt: Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1470,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sõnumi signeerimise aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sõnumi signeerimise aadress (nt: Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1512,8 +1512,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this NetsCoin address</source>
-        <translation>Allkirjasta sõnum NetsCoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this NiCKEL address</source>
+        <translation>Allkirjasta sõnum NiCKELi aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1543,13 +1543,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Aadress, millega sõnum allkirjastati (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Aadress, millega sõnum allkirjastati (nt: Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified NetsCoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud NetsCoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified NiCKEL address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud NiCKELi aadressiga.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1564,8 +1564,8 @@ Aadress: %4⏎</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a NetsCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Sisesta NetsCoini aadress (nt: Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a NiCKEL address (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Sisesta NiCKELi aadress (nt: Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1574,8 +1574,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter NetsCoin signature</source>
-        <translation>Sisesta NetsCoini allkiri</translation>
+        <source>Enter NiCKEL signature</source>
+        <translation>Sisesta NiCKELi allkiri</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1648,7 +1648,7 @@ Aadress: %4⏎</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The NetsCoin developers</source>
+        <source>The NiCKEL developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2186,8 +2186,8 @@ Aadress: %4⏎</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>NetsCoin version</source>
-        <translation>NetsCoini versioon</translation>
+        <source>NiCKEL version</source>
+        <translation>NiCKELi versioon</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2196,8 +2196,8 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or NetsCoind</source>
-        <translation>Saada käsklus -serverile või NetsCoindile</translation>
+        <source>Send command to -server or NiCKELd</source>
+        <translation>Saada käsklus -serverile või NiCKELdile</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2216,13 +2216,13 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: NetsCoin.conf)</source>
-        <translation>Täpsusta sätete fail (vaikimisi: NetsCoin.conf)</translation>
+        <source>Specify configuration file (default: NiCKEL.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: NiCKEL.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: NetsCoind.pid)</source>
-        <translation>Täpsusta PID fail (vaikimisi: NetsCoin.pid)</translation>
+        <source>Specify pid file (default: NiCKELd.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: NiCKEL.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2299,24 +2299,24 @@ Aadress: %4⏎</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=NetsCoinrpc
+rpcuser=NiCKELrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NiCKEL Alert&quot; admin@foo.com
 </source>
         <translation>%s, sul tuleb rpcpassword määrata seadete failis:
 %s
 Soovitatav on kasutada järgmist juhuslikku parooli:
-rpcuser=NetsCoinrpc
+rpcuser=NiCKELrpc
 rpcpassword=%s
 (seda parooli ei pea meeles pidama)
 Kasutajanimi ning parool EI TOHI kattuda.
 Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
 Soovitatav on seadistada tõrgete puhul teavitus;
-nt: alertnotify=echo %%s | email -s &quot;NetsCoin Alert&quot; admin@foo.com
+nt: alertnotify=echo %%s | email -s &quot;NiCKEL Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2331,8 +2331,8 @@ nt: alertnotify=echo %%s | email -s &quot;NetsCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. NetsCoin is probably already running.</source>
-        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on NetsCoin juba avatud.</translation>
+        <source>Cannot obtain a lock on data directory %s. NiCKEL is probably already running.</source>
+        <translation>Ei suuda määrata ainuõigust andmekaustale %s. Tõenäolisel on NiCKEL juba avatud.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2376,8 +2376,8 @@ nt: alertnotify=echo %%s | email -s &quot;NetsCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NetsCoin will not work properly.</source>
-        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis NetsCoin ei tööta korralikult</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NiCKEL will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis NiCKEL ei tööta korralikult</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2626,8 +2626,8 @@ nt: alertnotify=echo %%s | email -s &quot;NetsCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the NetsCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL valikud: (vaata NetsCoini Wikist või SSL sätete juhendist)</translation>
+        <source>SSL options: (see the NiCKEL Wiki for SSL setup instructions)</source>
+        <translation>SSL valikud: (vaata NiCKELi Wikist või SSL sätete juhendist)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2816,13 +2816,13 @@ nt: alertnotify=echo %%s | email -s &quot;NetsCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of NetsCoin</source>
-        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab NetsCoini uusimat versiooni</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NiCKEL</source>
+        <translation>Viga wallet.dat käivitamisel: Rahakott nõuab NiCKELi uusimat versiooni</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart NetsCoin to complete</source>
-        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita NetsCoin</translation>
+        <source>Wallet needed to be rewritten: restart NiCKEL to complete</source>
+        <translation>Rahakott tuli ümberkirjutada: toimingu lõpetamiseks taaskäivita NiCKEL</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2881,8 +2881,8 @@ nt: alertnotify=echo %%s | email -s &quot;NetsCoin Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. NetsCoin is probably already running.</source>
-        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. NetsCoin juba töötab.</translation>
+        <source>Unable to bind to %s on this computer. NiCKEL is probably already running.</source>
+        <translation>%s&apos;ga ei ole võimalik sellest arvutist siduda. NiCKEL juba töötab.</translation>
     </message>
     <message>
         <location line="+64"/>

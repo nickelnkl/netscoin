@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>NetsCoin-Qt</string>
+	<string>NiCKEL-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.NetsCoin.NetsCoin-Qt</string>
+	<string>org.NiCKEL.NiCKEL-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>org.NetsCoin.NetsCoinPayment</string>
+            <string>org.NiCKEL.NiCKELPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>NetsCoin</string>
+              <string>NiCKEL</string>
             </array>
           </dict>
         </array>

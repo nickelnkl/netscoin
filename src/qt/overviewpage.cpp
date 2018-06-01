@@ -116,6 +116,14 @@ OverviewPage::OverviewPage(QWidget *parent) :
     ui->labelWalletStatus->setText("(" + tr("out of sync") + ")");
     ui->labelTransactionsStatus->setText("(" + tr("out of sync") + ")");
 
+
+    // use a SingleColorIcon for the "out of sync warning" icon
+    //QPixmap icon
+    QPixmap icon = QPixmap(":/icons/warning");
+    ui->labelTransactionsStatus->setPixmap(icon.scaled(QSize(32,32)));
+    ui->labelWalletStatus->setPixmap(icon.scaled(QSize(32,32)));
+
+
     // start with displaying the "out of sync" warnings
     showOutOfSyncWarning(true);
 }

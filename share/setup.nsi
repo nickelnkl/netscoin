@@ -1,4 +1,4 @@
-Name NetsCoin
+Name NiCKEL
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,8 +6,8 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.8.6.1
-!define COMPANY "NetsCoin project"
-!define URL http://www.NetsCoin.org/
+!define COMPANY "NiCKEL project"
+!define URL http://www.NiCKEL.org/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
@@ -19,8 +19,8 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER NetsCoin
-!define MUI_FINISHPAGE_RUN $INSTDIR\NetsCoin-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER NiCKEL
+!define MUI_FINISHPAGE_RUN $INSTDIR\NiCKEL-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -45,14 +45,14 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile NetsCoin-0.8.6.1-win32-setup.exe
-InstallDir $PROGRAMFILES\NetsCoin
+OutFile NiCKEL-0.8.6.1-win32-setup.exe
+InstallDir $PROGRAMFILES\NiCKEL
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.8.6.1
-VIAddVersionKey ProductName NetsCoin
+VIAddVersionKey ProductName NiCKEL
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -66,18 +66,18 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/NetsCoin-qt.exe
+    File ../release/NiCKEL-qt.exe
     File /oname=COPYING.txt ../COPYING
     File /oname=readme.txt ../doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File ../src/NetsCoind.exe
+    File ../src/NiCKELd.exe
     SetOutPath $INSTDIR\src
     File /r /x *.exe /x *.o ../src\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
     # Remove old wxwidgets-based-bitcoin executable and locales:
-    Delete /REBOOTOK $INSTDIR\NetsCoin.exe
+    Delete /REBOOTOK $INSTDIR\NiCKEL.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -87,8 +87,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\NetsCoin.lnk" $INSTDIR\NetsCoin-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall NetsCoin.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\NiCKEL.lnk" $INSTDIR\NiCKEL-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall NiCKEL.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -98,10 +98,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "NetsCoin" "URL Protocol" ""
-    WriteRegStr HKCR "NetsCoin" "" "URL:NetsCoin"
-    WriteRegStr HKCR "NetsCoin\DefaultIcon" "" $INSTDIR\NetsCoin-qt.exe
-    WriteRegStr HKCR "NetsCoin\shell\open\command" "" '"$INSTDIR\NetsCoin-qt.exe" "%1"'
+    WriteRegStr HKCR "NiCKEL" "URL Protocol" ""
+    WriteRegStr HKCR "NiCKEL" "" "URL:NiCKEL"
+    WriteRegStr HKCR "NiCKEL\DefaultIcon" "" $INSTDIR\NiCKEL-qt.exe
+    WriteRegStr HKCR "NiCKEL\shell\open\command" "" '"$INSTDIR\NiCKEL-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -119,7 +119,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\NetsCoin-qt.exe
+    Delete /REBOOTOK $INSTDIR\NiCKEL-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -129,9 +129,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall NetsCoin.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\NetsCoin.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\NetsCoin.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall NiCKEL.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\NiCKEL.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\NiCKEL.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "NetsCoin"
+    DeleteRegKey HKCR "NiCKEL"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

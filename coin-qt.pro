@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = NetsCoin-qt
-macx:TARGET = "NetsCoin-Qt"
+TARGET = NiCKEL-qt
+macx:TARGET = "NiCKEL-Qt"
 VERSION = 1.0.0.1
 INCLUDEPATH += src src/json src/qt
 QT += network

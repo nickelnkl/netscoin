@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About NetsCoin</source>
-        <translation>O NetsCoin</translation>
+        <source>About NiCKEL</source>
+        <translation>O NiCKEL</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;NetsCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;NetsCoin&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;NiCKEL&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;NiCKEL&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The NetsCoin developers</source>
+        <source>The NiCKEL developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your NetsCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú Vaše NetsCoin adresy pre prijímanie platieb. Môžete dať každému odosielateľovi inú rôznu adresu a tak udržiavať prehľad o platbách.</translation>
+        <source>These are your NiCKEL addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú Vaše NiCKEL adresy pre prijímanie platieb. Môžete dať každému odosielateľovi inú rôznu adresu a tak udržiavať prehľad o platbách.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a NetsCoin address</source>
+        <source>Sign a message to prove you own a NiCKEL address</source>
         <translation>Podpísať správu a dokázať že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified NetsCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified NiCKEL address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your NetsCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your NiCKEL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NetsCoinS&lt;/b&gt;!</source>
-        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE NetsCoinY&lt;/b&gt;!⏎</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NiCKELS&lt;/b&gt;!</source>
+        <translation>Varovanie: Ak zašifrujete peňaženku a stratíte heslo, &lt;b&gt;STRATÍTE VŠETKY VAŠE NiCKELY&lt;/b&gt;!⏎</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>NetsCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your NetsCoins from being stolen by malware infecting your computer.</source>
-        <translation>NetsCoin sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou NetsCoinov pomocou škodlivého software.</translation>
+        <source>NiCKEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your NiCKELs from being stolen by malware infecting your computer.</source>
+        <translation>NiCKEL sa teraz ukončí pre dokončenie procesu šifrovania. Pamätaj že šifrovanie peňaženky Ťa nemôže úplne ochrániť pred kráďežou NiCKELov pomocou škodlivého software.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about NetsCoin</source>
-        <translation>Zobraziť informácie o NetsCoin</translation>
+        <source>Show information about NiCKEL</source>
+        <translation>Zobraziť informácie o NiCKEL</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a NetsCoin address</source>
-        <translation>Poslať NetsCoins na adresu</translation>
+        <source>Send coins to a NiCKEL address</source>
+        <translation>Poslať NiCKELs na adresu</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for NetsCoin</source>
-        <translation>Upraviť možnosti nastavenia pre NetsCoin</translation>
+        <source>Modify configuration options for NiCKEL</source>
+        <translation>Upraviť možnosti nastavenia pre NiCKEL</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>NetsCoin</source>
+        <source>NiCKEL</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About NetsCoin</source>
-        <translation>&amp;O NetsCoin</translation>
+        <source>&amp;About NiCKEL</source>
+        <translation>&amp;O NiCKEL</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your NetsCoin addresses to prove you own them</source>
+        <source>Sign messages with your NiCKEL addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified NetsCoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified NiCKEL addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>NetsCoin client</source>
-        <translation>NetsCoin klient</translation>
+        <source>NiCKEL client</source>
+        <translation>NiCKEL klient</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to NetsCoin network</source>
-        <translation><numerusform>%n aktívne spojenie v NetsCoin sieti</numerusform><numerusform>%n aktívne spojenia v NetsCoin sieti</numerusform><numerusform>%n aktívnych spojení v Bitconi sieti</numerusform></translation>
+        <source>%n active connection(s) to NiCKEL network</source>
+        <translation><numerusform>%n aktívne spojenie v NiCKEL sieti</numerusform><numerusform>%n aktívne spojenia v NiCKEL sieti</numerusform><numerusform>%n aktívnych spojení v Bitconi sieti</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -650,7 +650,7 @@ Adresa: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid NetsCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid NiCKEL address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -665,7 +665,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. NetsCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. NiCKEL can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -731,8 +731,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid NetsCoin address.</source>
-        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou NetsCoin.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid NiCKEL address.</source>
+        <translation>Vložená adresa &quot;%1&quot; nieje platnou adresou NiCKEL.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -750,7 +750,7 @@ Adresa: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>NetsCoin-Qt</source>
+        <source>NiCKEL-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -813,13 +813,13 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start NetsCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť NetsCoin po zapnutí počítača</translation>
+        <source>Automatically start NiCKEL after logging in to the system.</source>
+        <translation>Automaticky spustiť NiCKEL po zapnutí počítača</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start NetsCoin on system login</source>
-        <translation>&amp;Spustiť NetsCoin pri spustení systému správy okien</translation>
+        <source>&amp;Start NiCKEL on system login</source>
+        <translation>&amp;Spustiť NiCKEL pri spustení systému správy okien</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -838,8 +838,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the NetsCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvorit port pre NetsCoin na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
+        <source>Automatically open the NiCKEL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvorit port pre NiCKEL na routeri. Toto funguje len ak router podporuje UPnP a je táto podpora aktivovaná.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -848,8 +848,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the NetsCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojiť do siete NetsCoin cez SOCKS proxy (napr. keď sa pripájate cez Tor)</translation>
+        <source>Connect to the NiCKEL network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojiť do siete NiCKEL cez SOCKS proxy (napr. keď sa pripájate cez Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -923,7 +923,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting NetsCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting NiCKEL.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -938,7 +938,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show NetsCoin addresses in the transaction list or not.</source>
+        <source>Whether to show NiCKEL addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -990,7 +990,7 @@ Adresa: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting NetsCoin.</source>
+        <source>This setting will take effect after restarting NiCKEL.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1009,7 +1009,7 @@ Adresa: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NetsCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NiCKEL network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1063,7 +1063,7 @@ Adresa: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start NetsCoin: click-to-pay handler</source>
+        <source>Cannot start NiCKEL: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1213,7 +1213,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the NetsCoin-Qt help message to get a list with possible NetsCoin command-line options.</source>
+        <source>Show the NiCKEL-Qt help message to get a list with possible NiCKEL command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1233,12 +1233,12 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>NetsCoin - Debug window</source>
+        <source>NiCKEL - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>NetsCoin Core</source>
+        <source>NiCKEL Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1248,7 +1248,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the NetsCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the NiCKEL debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1258,7 +1258,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the NetsCoin RPC console.</source>
+        <source>Welcome to the NiCKEL RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1284,7 +1284,7 @@ Adresa: %4</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Poslať NetsCoins</translation>
+        <translation>Poslať NiCKELs</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -1334,7 +1334,7 @@ Adresa: %4</translation>
     <message>
         <location line="+5"/>
         <source>Confirm send coins</source>
-        <translation>Potvrdiť odoslanie NetsCoins</translation>
+        <translation>Potvrdiť odoslanie NiCKELs</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1401,7 +1401,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>The address to send the payment to (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1442,8 +1442,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a NetsCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte NetsCoin adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a NiCKEL address (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadajte NiCKEL adresu (napr. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1465,8 +1465,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte NetsCoin adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadajte NiCKEL adresu (napr. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1507,7 +1507,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this NetsCoin address</source>
+        <source>Sign the message to prove you own this NiCKEL address</source>
         <translation>Podpíšte správu aby ste dokázali že vlastníte túto adresu</translation>
     </message>
     <message>
@@ -1538,12 +1538,12 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte NetsCoin adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadajte NiCKEL adresu (napr. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified NetsCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified NiCKEL address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1559,8 +1559,8 @@ Adresa: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a NetsCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Zadajte NetsCoin adresu (napr. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a NiCKEL address (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Zadajte NiCKEL adresu (napr. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1569,7 +1569,7 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter NetsCoin signature</source>
+        <source>Enter NiCKEL signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1643,7 +1643,7 @@ Adresa: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The NetsCoin developers</source>
+        <source>The NiCKEL developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2131,7 +2131,7 @@ Adresa: %4</translation>
     <message>
         <location filename="../walletmodel.cpp" line="+193"/>
         <source>Send Coins</source>
-        <translation>Poslať NetsCoins</translation>
+        <translation>Poslať NiCKELs</translation>
     </message>
 </context>
 <context>
@@ -2181,8 +2181,8 @@ Adresa: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>NetsCoin version</source>
-        <translation>NetsCoin verzia</translation>
+        <source>NiCKEL version</source>
+        <translation>NiCKEL verzia</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2191,8 +2191,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or NetsCoind</source>
-        <translation>Odoslať príkaz -server alebo NetsCoind</translation>
+        <source>Send command to -server or NiCKELd</source>
+        <translation>Odoslať príkaz -server alebo NiCKELd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2211,13 +2211,13 @@ Adresa: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: NetsCoin.conf)</source>
-        <translation>Určiť súbor s nastaveniami (predvolené: NetsCoin.conf)</translation>
+        <source>Specify configuration file (default: NiCKEL.conf)</source>
+        <translation>Určiť súbor s nastaveniami (predvolené: NiCKEL.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: NetsCoind.pid)</source>
-        <translation>Určiť súbor pid (predvolené: NetsCoind.pid)</translation>
+        <source>Specify pid file (default: NiCKELd.pid)</source>
+        <translation>Určiť súbor pid (predvolené: NiCKELd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2294,13 +2294,13 @@ Adresa: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=NetsCoinrpc
+rpcuser=NiCKELrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NiCKEL Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2316,7 +2316,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. NetsCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. NiCKEL is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2361,7 +2361,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NetsCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NiCKEL will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2611,8 +2611,8 @@ for example: alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the NetsCoin Wiki for SSL setup instructions)</source>
-        <translation>SSL možnosť: (pozrite NetsCoin Wiki pre návod na nastavenie SSL)</translation>
+        <source>SSL options: (see the NiCKEL Wiki for SSL setup instructions)</source>
+        <translation>SSL možnosť: (pozrite NiCKEL Wiki pre návod na nastavenie SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2801,13 +2801,13 @@ for example: alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of NetsCoin</source>
-        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu NetsCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NiCKEL</source>
+        <translation>Chyba načítania wallet.dat: Peňaženka vyžaduje novšiu verziu NiCKEL</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart NetsCoin to complete</source>
-        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním NetsCoin</translation>
+        <source>Wallet needed to be rewritten: restart NiCKEL to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: dokončite reštartovaním NiCKEL</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2866,7 +2866,7 @@ for example: alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. NetsCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. NiCKEL is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

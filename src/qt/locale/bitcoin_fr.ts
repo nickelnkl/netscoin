@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About NetsCoin</source>
-        <translation>À propos de NetsCoin</translation>
+        <source>About NiCKEL</source>
+        <translation>À propos de NiCKEL</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;NetsCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;NetsCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;NiCKEL&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;NiCKEL&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The NetsCoin developers</source>
-        <translation>Les développeurs NetsCoin</translation>
+        <source>The NiCKEL developers</source>
+        <translation>Les développeurs NiCKEL</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your NetsCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Voici vos adresses NetsCoin qui vous permettent de recevoir des paiements. Vous pouvez donner une adresse différente à chaque expéditeur afin de savoir qui vous paye.</translation>
+        <source>These are your NiCKEL addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Voici vos adresses NiCKEL qui vous permettent de recevoir des paiements. Vous pouvez donner une adresse différente à chaque expéditeur afin de savoir qui vous paye.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a NetsCoin address</source>
-        <translation>Signer un message pour prouver que vous détenez une adresse NetsCoin</translation>
+        <source>Sign a message to prove you own a NiCKEL address</source>
+        <translation>Signer un message pour prouver que vous détenez une adresse NiCKEL</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified NetsCoin address</source>
-        <translation>Vérifier un message pour vous assurer qu&apos;il a bien été signé avec l&apos;adresse NetsCoin spécifiée</translation>
+        <source>Verify a message to ensure it was signed with a specified NiCKEL address</source>
+        <translation>Vérifier un message pour vous assurer qu&apos;il a bien été signé avec l&apos;adresse NiCKEL spécifiée</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your NetsCoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Ce sont vos adresses NetsCoin pour émettre des paiements. Vérifiez toujours le montant et l&apos;adresse du destinataire avant d&apos;envoyer des pièces.</translation>
+        <source>These are your NiCKEL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ce sont vos adresses NiCKEL pour émettre des paiements. Vérifiez toujours le montant et l&apos;adresse du destinataire avant d&apos;envoyer des pièces.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NetsCoinS&lt;/b&gt;!</source>
-        <translation>Attention : Si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ ACCÈS À TOUS VOS NetsCoinS&lt;/b&gt; !</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR NiCKELS&lt;/b&gt;!</source>
+        <translation>Attention : Si vous chiffrez votre porte-monnaie et perdez votre phrase de passe, vous &lt;b&gt;PERDREZ ACCÈS À TOUS VOS NiCKELS&lt;/b&gt; !</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>NetsCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your NetsCoins from being stolen by malware infecting your computer.</source>
-        <translation>NetsCoin va à présent se fermer pour terminer la procédure de cryptage. N&apos;oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
+        <source>NiCKEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your NiCKELs from being stolen by malware infecting your computer.</source>
+        <translation>NiCKEL va à présent se fermer pour terminer la procédure de cryptage. N&apos;oubliez pas que le chiffrement de votre porte-monnaie ne peut pas fournir une protection totale contre le vol par des logiciels malveillants qui infecteraient votre ordinateur.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about NetsCoin</source>
-        <translation>Afficher des informations à propos de NetsCoin</translation>
+        <source>Show information about NiCKEL</source>
+        <translation>Afficher des informations à propos de NiCKEL</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a NetsCoin address</source>
-        <translation>Envoyer des pièces à une adresse NetsCoin</translation>
+        <source>Send coins to a NiCKEL address</source>
+        <translation>Envoyer des pièces à une adresse NiCKEL</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for NetsCoin</source>
-        <translation>Modifier les options de configuration de NetsCoin</translation>
+        <source>Modify configuration options for NiCKEL</source>
+        <translation>Modifier les options de configuration de NiCKEL</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>NetsCoin</source>
-        <translation>NetsCoin</translation>
+        <source>NiCKEL</source>
+        <translation>NiCKEL</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About NetsCoin</source>
-        <translation>À &amp;propos de NetsCoin</translation>
+        <source>&amp;About NiCKEL</source>
+        <translation>À &amp;propos de NiCKEL</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your NetsCoin addresses to prove you own them</source>
-        <translation>Signer les messages avec vos adresses NetsCoin pour prouver que vous les détenez</translation>
+        <source>Sign messages with your NiCKEL addresses to prove you own them</source>
+        <translation>Signer les messages avec vos adresses NiCKEL pour prouver que vous les détenez</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified NetsCoin addresses</source>
-        <translation>Vérifier les messages pour vous assurer qu&apos;ils ont bien été signés avec les adresses NetsCoin spécifiées</translation>
+        <source>Verify messages to ensure they were signed with specified NiCKEL addresses</source>
+        <translation>Vérifier les messages pour vous assurer qu&apos;ils ont bien été signés avec les adresses NiCKEL spécifiées</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>NetsCoin client</source>
-        <translation>Client NetsCoin</translation>
+        <source>NiCKEL client</source>
+        <translation>Client NiCKEL</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to NetsCoin network</source>
-        <translation><numerusform>%n connexion active avec le réseau NetsCoin</numerusform><numerusform>%n connexions actives avec le réseau NetsCoin</numerusform></translation>
+        <source>%n active connection(s) to NiCKEL network</source>
+        <translation><numerusform>%n connexion active avec le réseau NiCKEL</numerusform><numerusform>%n connexions actives avec le réseau NiCKEL</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -656,8 +656,8 @@ Adresse : %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid NetsCoin address or malformed URI parameters.</source>
-        <translation>L&apos;URI ne peut être analysé ! Cela peut être causé par une adresse NetsCoin invalide ou par des paramètres d&apos;URI malformés.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid NiCKEL address or malformed URI parameters.</source>
+        <translation>L&apos;URI ne peut être analysé ! Cela peut être causé par une adresse NiCKEL invalide ou par des paramètres d&apos;URI malformés.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. NetsCoin can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale est survenue. NetsCoin ne peut plus continuer à fonctionner de façon sûre et va s&apos;arrêter.</translation>
+        <source>A fatal error occurred. NiCKEL can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale est survenue. NiCKEL ne peut plus continuer à fonctionner de façon sûre et va s&apos;arrêter.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adresse : %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid NetsCoin address.</source>
-        <translation>L&apos;adresse fournie « %1 » n&apos;est pas une adresse NetsCoin valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid NiCKEL address.</source>
+        <translation>L&apos;adresse fournie « %1 » n&apos;est pas une adresse NiCKEL valide.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adresse : %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>NetsCoin-Qt</source>
-        <translation>NetsCoin-Qt</translation>
+        <source>NiCKEL-Qt</source>
+        <translation>NiCKEL-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adresse : %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start NetsCoin after logging in to the system.</source>
-        <translation>Démarrer NetsCoin automatiquement lors de l&apos;ouverture une session sur l&apos;ordinateur.</translation>
+        <source>Automatically start NiCKEL after logging in to the system.</source>
+        <translation>Démarrer NiCKEL automatiquement lors de l&apos;ouverture une session sur l&apos;ordinateur.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start NetsCoin on system login</source>
-        <translation>&amp;Démarrer NetsCoin lors de l&apos;ouverture d&apos;une session</translation>
+        <source>&amp;Start NiCKEL on system login</source>
+        <translation>&amp;Démarrer NiCKEL lors de l&apos;ouverture d&apos;une session</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the NetsCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouvrir le port du client NetsCoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l&apos;UPnP et si la fonctionnalité est activée.</translation>
+        <source>Automatically open the NiCKEL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client NiCKEL automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l&apos;UPnP et si la fonctionnalité est activée.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the NetsCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connexion au réseau NetsCoin à travers un proxy SOCKS (par ex. lors d&apos;une connexion via Tor).</translation>
+        <source>Connect to the NiCKEL network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connexion au réseau NiCKEL à travers un proxy SOCKS (par ex. lors d&apos;une connexion via Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting NetsCoin.</source>
-        <translation>La langue de l&apos;interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de NetsCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting NiCKEL.</source>
+        <translation>La langue de l&apos;interface utilisateur peut être définie ici. Ce réglage sera pris en compte après redémarrage de NiCKEL.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show NetsCoin addresses in the transaction list or not.</source>
-        <translation>Détermine si les adresses NetsCoin seront affichées sur la liste des transactions.</translation>
+        <source>Whether to show NiCKEL addresses in the transaction list or not.</source>
+        <translation>Détermine si les adresses NiCKEL seront affichées sur la liste des transactions.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adresse : %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting NetsCoin.</source>
-        <translation>Ce réglage sera pris en compte après un redémarrage de NetsCoin.</translation>
+        <source>This setting will take effect after restarting NiCKEL.</source>
+        <translation>Ce réglage sera pris en compte après un redémarrage de NiCKEL.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adresse : %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NetsCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau NetsCoin lorsque la connexion s&apos;établit, or ce processus n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the NiCKEL network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre porte-monnaie est automatiquement synchronisé avec le réseau NiCKEL lorsque la connexion s&apos;établit, or ce processus n&apos;est pas encore terminé.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adresse : %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start NetsCoin: click-to-pay handler</source>
-        <translation>Impossible de démarrer NetsCoin : gestionnaire de cliquer-pour-payer</translation>
+        <source>Cannot start NiCKEL: click-to-pay handler</source>
+        <translation>Impossible de démarrer NiCKEL : gestionnaire de cliquer-pour-payer</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the NetsCoin-Qt help message to get a list with possible NetsCoin command-line options.</source>
-        <translation>Afficher le message d&apos;aide de NetsCoin-Qt pour obtenir la liste des options de ligne de commande disponibles pour NetsCoin.</translation>
+        <source>Show the NiCKEL-Qt help message to get a list with possible NiCKEL command-line options.</source>
+        <translation>Afficher le message d&apos;aide de NiCKEL-Qt pour obtenir la liste des options de ligne de commande disponibles pour NiCKEL.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adresse : %4
     </message>
     <message>
         <location line="-104"/>
-        <source>NetsCoin - Debug window</source>
-        <translation>NetsCoin - Fenêtre de débogage</translation>
+        <source>NiCKEL - Debug window</source>
+        <translation>NiCKEL - Fenêtre de débogage</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>NetsCoin Core</source>
-        <translation>Noyau NetsCoin</translation>
+        <source>NiCKEL Core</source>
+        <translation>Noyau NiCKEL</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the NetsCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le journal de débogage de NetsCoin depuis le répertoire de données actuel. Cela peut prendre quelques secondes pour les journaux de grande taille.</translation>
+        <source>Open the NiCKEL debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvrir le journal de débogage de NiCKEL depuis le répertoire de données actuel. Cela peut prendre quelques secondes pour les journaux de grande taille.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the NetsCoin RPC console.</source>
-        <translation>Bienvenue sur la console RPC de NetsCoin.</translation>
+        <source>Welcome to the NiCKEL RPC console.</source>
+        <translation>Bienvenue sur la console RPC de NiCKEL.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1407,8 +1407,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse à laquelle le paiement sera envoyé (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>L&apos;adresse à laquelle le paiement sera envoyé (par ex. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1448,8 +1448,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a NetsCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrez une adresse NetsCoin (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a NiCKEL address (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrez une adresse NiCKEL (par ex. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1471,8 +1471,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse avec laquelle le message sera signé (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>L&apos;adresse avec laquelle le message sera signé (par ex. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1513,8 +1513,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this NetsCoin address</source>
-        <translation>Signer le message pour prouver que vous détenez cette adresse NetsCoin</translation>
+        <source>Sign the message to prove you own this NiCKEL address</source>
+        <translation>Signer le message pour prouver que vous détenez cette adresse NiCKEL</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1544,13 +1544,13 @@ Adresse : %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>L&apos;adresse avec laquelle le message a été signé (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>L&apos;adresse avec laquelle le message a été signé (par ex. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified NetsCoin address</source>
-        <translation>Vérifier le message pour vous assurer qu&apos;il a bien été signé par l&apos;adresse NetsCoin spécifiée</translation>
+        <source>Verify the message to ensure it was signed with the specified NiCKEL address</source>
+        <translation>Vérifier le message pour vous assurer qu&apos;il a bien été signé par l&apos;adresse NiCKEL spécifiée</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adresse : %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a NetsCoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Entrez une adresse NetsCoin (par ex. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a NiCKEL address (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Entrez une adresse NiCKEL (par ex. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adresse : %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter NetsCoin signature</source>
-        <translation>Entrer une signature NetsCoin</translation>
+        <source>Enter NiCKEL signature</source>
+        <translation>Entrer une signature NiCKEL</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adresse : %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The NetsCoin developers</source>
-        <translation>Les développeurs NetsCoin</translation>
+        <source>The NiCKEL developers</source>
+        <translation>Les développeurs NiCKEL</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,8 +2187,8 @@ Adresse : %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>NetsCoin version</source>
-        <translation>Version de NetsCoin</translation>
+        <source>NiCKEL version</source>
+        <translation>Version de NiCKEL</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adresse : %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or NetsCoind</source>
-        <translation>Envoyer une commande à -server ou à NetsCoind</translation>
+        <source>Send command to -server or NiCKELd</source>
+        <translation>Envoyer une commande à -server ou à NiCKELd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,13 +2217,13 @@ Adresse : %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: NetsCoin.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut : NetsCoin.conf)</translation>
+        <source>Specify configuration file (default: NiCKEL.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut : NiCKEL.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: NetsCoind.pid)</source>
-        <translation>Spécifier le fichier PID (par défaut : NetsCoind.pid)</translation>
+        <source>Specify pid file (default: NiCKELd.pid)</source>
+        <translation>Spécifier le fichier PID (par défaut : NiCKELd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2300,24 +2300,24 @@ Adresse : %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=NetsCoinrpc
+rpcuser=NiCKELrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;NiCKEL Alert&quot; admin@foo.com
 </source>
         <translation>%s, vous devez définir un mot de passe rpc dans le fichier de configuration : 
 %s
 Il vous est conseillé d&apos;utiliser le mot de passe aléatoire suivant :
-rpcuser=NetsCoinrpc
+rpcuser=NiCKELrpc
 rpcpassword=%s
 (vous n&apos;avez pas besoin de retenir ce mot de passe)
 Le nom d&apos;utilisateur et le mot de passe NE DOIVENT PAS être identiques.
 Si le fichier n&apos;existe pas, créez-le avec les droits de lecture accordés au propriétaire.
 Il est aussi conseillé de régler alertnotify pour être prévenu des problèmes ;
-par exemple : alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@foo.com
+par exemple : alertnotify=echo %%s | mail -s &quot;NiCKEL Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2332,8 +2332,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. NetsCoin is probably already running.</source>
-        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. NetsCoin fonctionne probablement déjà.</translation>
+        <source>Cannot obtain a lock on data directory %s. NiCKEL is probably already running.</source>
+        <translation>Impossible d’obtenir un verrou sur le répertoire de données %s. NiCKEL fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NetsCoin will not work properly.</source>
-        <translation>Attention : veuillez vérifier que l&apos;heure et la date de votre ordinateur sont correctes ! Si votre horloge n&apos;est pas à l&apos;heure, NetsCoin ne fonctionnera pas correctement.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong NiCKEL will not work properly.</source>
+        <translation>Attention : veuillez vérifier que l&apos;heure et la date de votre ordinateur sont correctes ! Si votre horloge n&apos;est pas à l&apos;heure, NiCKEL ne fonctionnera pas correctement.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the NetsCoin Wiki for SSL setup instructions)</source>
-        <translation>Options SSL : (cf. le wiki de NetsCoin pour les instructions de configuration du SSL)</translation>
+        <source>SSL options: (see the NiCKEL Wiki for SSL setup instructions)</source>
+        <translation>Options SSL : (cf. le wiki de NiCKEL pour les instructions de configuration du SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ par exemple : alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of NetsCoin</source>
-        <translation>Erreur lors du chargement de wallet.dat : le porte-monnaie nécessite une version plus récente de NetsCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of NiCKEL</source>
+        <translation>Erreur lors du chargement de wallet.dat : le porte-monnaie nécessite une version plus récente de NiCKEL</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart NetsCoin to complete</source>
-        <translation>Le porte-monnaie nécessitait une réécriture : veuillez redémarrer NetsCoin pour terminer l&apos;opération</translation>
+        <source>Wallet needed to be rewritten: restart NiCKEL to complete</source>
+        <translation>Le porte-monnaie nécessitait une réécriture : veuillez redémarrer NiCKEL pour terminer l&apos;opération</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ par exemple : alertnotify=echo %%s | mail -s &quot;NetsCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. NetsCoin is probably already running.</source>
-        <translation>Impossible de se lier à %s sur cet ordinateur. NetsCoin fonctionne probablement déjà.</translation>
+        <source>Unable to bind to %s on this computer. NiCKEL is probably already running.</source>
+        <translation>Impossible de se lier à %s sur cet ordinateur. NiCKEL fonctionne probablement déjà.</translation>
     </message>
     <message>
         <location line="+64"/>

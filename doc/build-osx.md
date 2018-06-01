@@ -1,4 +1,4 @@
-Mac OS X NetsCoind build instructions
+Mac OS X NiCKELd build instructions
 ====================================
 
 Authors
@@ -26,7 +26,7 @@ Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.
 Notes
 -----
 
-See `doc/readme-qt.rst` for instructions on building NetsCoin-Qt, the
+See `doc/readme-qt.rst` for instructions on building NiCKEL-Qt, the
 graphical user interface.
 
 Tested on OS X 10.5 through 10.8 on Intel processors only. PPC is not
@@ -72,14 +72,14 @@ Installing the dependencies using MacPorts is very straightforward.
 
     sudo port install boost db48@+no_java openssl miniupnpc
 
-### Building `NetsCoind`
+### Building `NiCKELd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:NetsCoin-project/NetsCoin.git NetsCoin
-        cd NetsCoin
+        git clone git@github.com:NiCKEL-project/NiCKEL.git NiCKEL
+        cd NiCKEL
 
-2.  Build NetsCoind:
+2.  Build NiCKELd:
 
         cd src
         make -f makefile.osx
@@ -97,7 +97,7 @@ You may find it easier to add the following steps to your process.  Since QT 4.8
 
       brew install qt
       
-Once you have QT installed, you might need to relink the new applications so that they appear in your Application folder, but this is unnecessary for compiling NetsCoin.  Now move on to installing the rest of the dependencies.
+Once you have QT installed, you might need to relink the new applications so that they appear in your Application folder, but this is unnecessary for compiling NiCKEL.  Now move on to installing the rest of the dependencies.
 
 #### Install dependencies using Homebrew
 
@@ -115,12 +115,12 @@ If not, you can ensure that the Brew OpenSSL is correctly linked by running
 
 Rerunning "openssl version" should now return the correct version.
 
-### Building `NetsCoind`
+### Building `NiCKELd`
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone git@github.com:NetsCoin-project/NetsCoin.git NetsCoin
-        cd NetsCoin
+        git clone git@github.com:NiCKEL-project/NiCKEL.git NiCKEL
+        cd NiCKEL
 
 2.  Modify source in order to pick up the `openssl` library.
 
@@ -130,11 +130,11 @@ Rerunning "openssl version" should now return the correct version.
 
         patch -p1 < contrib/homebrew/makefile.osx.patch
 
-*Update*: The above #2 step has been rebuilt here. Now before you proceed to building NetsCoind it is coing to be necessary to edit both the makefile and the NetsCoin-qt.pro file.  You can find those edits in /contrib/homebrew/
+*Update*: The above #2 step has been rebuilt here. Now before you proceed to building NiCKELd it is coing to be necessary to edit both the makefile and the NiCKEL-qt.pro file.  You can find those edits in /contrib/homebrew/
 
 What you doing is fixing the locations of openssl, boost, and berkeley-db4 to the correct locations that homebrew installs.
 
-3.  Build NetsCoind:
+3.  Build NiCKELd:
 
         cd src
         make -f makefile.osx
@@ -146,8 +146,8 @@ What you doing is fixing the locations of openssl, boost, and berkeley-db4 to th
 Creating a release build
 ------------------------
 
-A NetsCoind binary is not included in the NetsCoin-Qt.app bundle. You can ignore
-this section if you are building `NetsCoind` for your own use.
+A NiCKELd binary is not included in the NiCKEL-Qt.app bundle. You can ignore
+this section if you are building `NiCKELd` for your own use.
 
 If you are building `litecond` for others, your build machine should be set up
 as follows for maximum compatibility:
@@ -168,10 +168,10 @@ As of December 2012, the `boost` port does not obey `macosx_deployment_target`.
 Download `http://gavinandresen-bitcoin.s3.amazonaws.com/boost_macports_fix.zip`
 for a fix. Some ports also seem to obey either `build_arch` or
 `macosx_deployment_target`, but not both at the same time. For example, building
-on an OS X 10.6 64-bit machine fails. Official release builds of NetsCoin-Qt are
+on an OS X 10.6 64-bit machine fails. Official release builds of NiCKEL-Qt are
 compiled on an OS X 10.6 32-bit machine to workaround that problem.
 
-Once dependencies are compiled, creating `NetsCoin-Qt.app` is easy:
+Once dependencies are compiled, creating `NiCKEL-Qt.app` is easy:
 
     make -f Makefile.osx RELEASE=1
 
@@ -191,20 +191,20 @@ This will make the QT version of the wallet WITHOUT having to use QT Creator (si
 Running
 -------
 
-It's now available at `./NetsCoind`, provided that you are still in the `src`
+It's now available at `./NiCKELd`, provided that you are still in the `src`
 directory. We have to first create the RPC configuration file, though.
 
-Run `./NetsCoind` to get the filename where it should be put, or just try these
+Run `./NiCKELd` to get the filename where it should be put, or just try these
 commands:
 
-    echo -e "rpcuser=NetsCoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/NetsCoin/NetsCoin.conf"
-    chmod 600 "/Users/${USER}/Library/Application Support/NetsCoin/NetsCoin.conf"
+    echo -e "rpcuser=NiCKELrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/NiCKEL/NiCKEL.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/NiCKEL/NiCKEL.conf"
 
 When next you run it, it will start downloading the blockchain, but it won't
 output anything while it's doing this. This process may take several hours.
 
 Other commands:
 
-    ./NetsCoind --help  # for a list of command-line options.
-    ./NetsCoind -daemon # to start the NetsCoin daemon.
-    ./NetsCoind help    # When the daemon is running, to get a list of RPC commands
+    ./NiCKELd --help  # for a list of command-line options.
+    ./NiCKELd -daemon # to start the NiCKEL daemon.
+    ./NiCKELd help    # When the daemon is running, to get a list of RPC commands

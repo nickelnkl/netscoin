@@ -24,11 +24,11 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a NetsCoin address"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a NiCKEL address (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a NetsCoin address"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter NetsCoin signature"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a NiCKEL address (e.g. Ner4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter NiCKEL signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

@@ -1114,7 +1114,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "NetsCoin " + FormatFullVersion();
+        string strDesc = "NiCKEL " + FormatFullVersion();
 
         try {
             loop {
@@ -1188,16 +1188,13 @@ void MapPort(bool)
 
 
 
-
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
-    {"cryptolife.net","seed5.cryptolife.net"},
-    {"cryptolife.net","explore.cryptolife.net"},
-    {"cryptolife.net","seed1.cryptolife.net"},
-    {"cryptolife.net","seed2.cryptolife.net"},
+    {"seed.nickelcore.org", "128.199.202.36"},
+    {"pool.bazzarcash.com", "159.55.170.51"},
     {NULL, NULL}
 };
 
@@ -1237,21 +1234,9 @@ void ThreadDNSAddressSeed()
     printf("%d addresses found from DNS seeds\n", found);
 }
 
-
-
-
-
-
-
-
-
-
-
-
 unsigned int pnSeed[] =
 {
-      0x119caa6b 
-//    0x92B9B572, 0xA2F3716E, 0x5F551D90
+    0x80c7ca24, 0x9f41aa33
 };
 
 void DumpAddresses()
@@ -1261,7 +1246,7 @@ void DumpAddresses()
     CAddrDB adb;
     adb.Write(addrman);
 
-    printf("Flushed %d addresses to peers.dat  %"PRI64d"ms\n",
+    printf("Flushed %d addresses to peers.dat  %" PRI64d "ms\n",
            addrman.size(), GetTimeMillis() - nStart);
 }
 
@@ -1684,7 +1669,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. NetsCoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. NiCKEL is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());

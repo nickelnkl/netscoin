@@ -35,8 +35,9 @@ namespace Checkpoints
     //    timestamp before)
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-               ( 0, uint256("0x33dfe3eb16f1dea13af49ab5c29a93419f78c5d548bf33679a4b8faab89433e5"))
-			   ( 1, uint256("0xfd18d2b2faf314101f640fac7e204db22808822f33f77f7da3170b0bc844397a"))
+             ( 0, uint256("0x33dfe3eb16f1dea13af49ab5c29a93419f78c5d548bf33679a4b8faab89433e5"))
+	     ( 1, uint256("0xfd18d2b2faf314101f640fac7e204db22808822f33f77f7da3170b0bc844397a"))
+//	( 312400, uint256("0x78705f0fce09c678c0db646b2e910ce66b5a83780230bd02e483123a51e3dd32"))
 			//   ( 2, uint256("0x33dfe3eb16f1dea13af49ab5c29a93419f78c5d548bf33679a4b8faab89433e5"))
 	;
     static const CCheckpointData data = {

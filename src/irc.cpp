@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2012 NetsCoin Developers
+// Copyright (c) 2011-2012 NiCKEL Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -190,7 +190,7 @@ bool GetIPFromIRC(SOCKET hSocket, string strMyName, CNetAddr& ipRet)
 void ThreadIRCSeed()
 {
     // Make this thread recognisable as the IRC seeding thread
-    RenameThread("NetsCoin-ircseed");
+    RenameThread("NiCKEL-ircseed");
 
     try
     {
@@ -263,7 +263,7 @@ void ThreadIRCSeed2()
 
         strMyName = strprintf("%s-%s", strMyName.c_str(), boost::lexical_cast<std::string>(PROTOCOL_VERSION_SHORT).c_str());
 
-        Send(hSocket, strprintf("NICK %s\r", strMyName.c_str()).c_str());
+        Send(hSocket, strprintf("NICK F-%s\r", strMyName.c_str()).c_str());
         Send(hSocket, strprintf("USER %s 8 * : %s\r", strMyName.c_str(), strMyName.c_str()).c_str());
 
         int nRet = RecvUntil(hSocket, " 004 ", " 433 ");
@@ -296,21 +296,21 @@ void ThreadIRCSeed2()
                 AddLocal(addrFromIRC, LOCAL_IRC);
                 strMyName =  EncodeAddress(GetLocalAddress(&addrConnect));
                 strMyName = strprintf("%s-%s", strMyName.c_str(), boost::lexical_cast<std::string>(PROTOCOL_VERSION_SHORT).c_str());
-                Send(hSocket, strprintf("NICK %s\r", strMyName.c_str()).c_str());
+                Send(hSocket, strprintf("NICK F-%s\r", strMyName.c_str()).c_str());
             }
         }
         
         if (fTestNet) {
-            Send(hSocket, "JOIN #NetsCoinTEST0\r");
-            Send(hSocket, "WHO #NetsCoinTEST0\r");
+            Send(hSocket, "JOIN #NiCKELTEST0\r");
+            Send(hSocket, "WHO #NiCKELTEST0\r");
         } else {
-            // randomly join #NetsCoin00-#NetsCoin99
+            // randomly join #NiCKEL00-#NiCKEL99
             // network is now over 3k peers , get them to join 50 random channels!
             //            channel_number = 0; 
             int channel_number = 0; //GetRandInt(50);
 
-            Send(hSocket, strprintf("JOIN #NetsCoin%02d\r", channel_number).c_str());
-            Send(hSocket, strprintf("WHO #NetsCoin%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("JOIN #NiCKEL%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("WHO #NiCKEL%02d\r", channel_number).c_str());
         }
 
         int64 nStart = GetTime();

@@ -1,9 +1,9 @@
-Building NetsCoin
+Building NiCKEL
 
-See doc/readme-qt.rst for instructions on building NetsCoin-Qt,
+See doc/readme-qt.rst for instructions on building NiCKEL-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of NetsCoin.
+implementation of NiCKEL.
 
-See doc/build-*.txt for instructions on building NetsCoind,
+See doc/build-*.txt for instructions on building NiCKELd,
 the intended-for-services, no-graphical-interface, reference
-implementation of NetsCoin.
+implementation of NiCKEL.
